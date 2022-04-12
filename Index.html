@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your first website with Framework</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    
+</head>
+<body>
+    <!-- header -->
+    <div class="container">
+
+        <h3>my name moayad</h3>
+        <a href="#" title="TEST FOR A TAG" target="_blank">TEST FOR A TAG</a>
+        <p>TEST FOT P TAG</p>
+        <br />
+        <h3>Test for Form</h3>
+        <form>
+            <input type="text" placeholder="Your Name:">
+            <br />
+            <p>Would you like to add more services?</p>
+            <br />
+            <p class="alert-danger msg">Your form was submitted successfully!</p>
+            <br />
+            <div>
+                <input class="form-check-input" type="checkbox" id="2C" name="checkboxTest" value="2C"
+                       checked>
+                <label for="2C">html services</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" id="1C" name="checkboxTest" value="1C" />
+
+                <label for="1">css services</label>
+            </div>
+
+            <br />
+            <p>Would you like to reseve news or udates?</p>
+            <div>
+                <input class="form-check-input" type="radio" id="yes" name="radioTest" value="YesR"
+                       checked>
+                <label for="YesR">Yes</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="radio" id="No" name="radioTest" value="NoR">
+
+                <label for="NoR">No</label>
+            </div>
+
+            <br />
+            <input id="SumbmitBtn" class="btn btn-primary" type="submit" value="Submit">
+        </form>
+
+        <br />
+        <h3>Test for ul li p a tags</h3>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Mylogo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">First</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Second</a>
+                        </li>
+                        <li class="nav-item">
+                            <p class="navbar-text disabled">Third</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br />
+        <input id="addtoBtn" class="btn btn-primary" type="submit" value="Add Raw to table">
+        <br />
+        <h3>Test for  table, thead, td, tbody, tr, td, span  tags</h3>
+        <table id="Table1" class="table">
+            <thead>
+                <tr>
+                    <th>header1</th>
+                    <th scope="col">header2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span>Cell 1</span></td>
+                    <td><span>Cell 2</span></td>
+                </tr>
+                <tr>
+                    <td><span>Cell 3</span></td>
+                    <td><span>Cell 4</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="javascript/JavaScript.js"></script>
+</body>
+</html>
